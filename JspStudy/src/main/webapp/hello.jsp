@@ -15,5 +15,6 @@
 	out.println("<h1>"+"str-=>"+str+"</h1>");//웹에 출력->backend(자바)
 	//document.write("str->"str);//웹 출력(브라우저)frontend(자바스크립트)
 %>
+<%=str%>
 </body>
 </html>
