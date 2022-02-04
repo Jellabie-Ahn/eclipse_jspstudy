@@ -10,8 +10,8 @@
 <% 
 	//Scriptlet(스크립트릿->자바코드를 사용할 수 있도록 만들어주는 영역)
 	String str="홍길동";
-	System.out.println("str->"+str);
-	out.println("<h1>"+"str-=>"+str+"<h/1>");//웹에 출력->backend(자바)
+	System.out.println("str->"+str);//콘솔에 출력(디버깅) 에러검증
+	out.println("<h1>"+"str-=>"+str+"</h1>");//웹에 출력->backend(자바)
 	//document.write("str->"str);//웹 출력(브라우저)frontend(자바스크립트)
 %>
 </body>
